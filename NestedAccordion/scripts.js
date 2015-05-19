@@ -1,5 +1,32 @@
+//TO OPEN THE ACCORDION:
+//What event should I listen for? 'click'
+//What element should listen for that event? '.cbp-nttrigger'
+/*_.forEach(document.querySelectorAll('.cbp-nttrigger'), function(element){
+
+  element.addEventListener('click', function(){
+
+    element.parentElement.classList.toggle('cbd-ntopen');
+
+  });
+});*/
+//What should I do when that event fires?
+// 1. Toggle '.cbp-ntopen' from parent '<li>' element
+
+$('.cbp-nttrigger').on('click', function(event){
+  $(event.target).parent().toggleClass('cbp-ntopen');
+});
+
+
+
+
+
+
+
+
+
+
 /* just a tracer bullet
-// alert("it's alive!");
+
 debugger;
 
 document.head.parentElement.className = "js"; // It's alive!
