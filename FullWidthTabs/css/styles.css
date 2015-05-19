@@ -1,4 +1,4 @@
-@font-face {
+/*@font-face {
 	font-family: 'icomoon';
 	src:url('../fonts/icomoon/icomoon.eot?pvm5gj');
 	src:url('../fonts/icomoon/icomoon.eot?#iefixpvm5gj') format('embedded-opentype'),
@@ -9,7 +9,7 @@
 	font-style: normal;
 } /* Icons created with icomoon.io/app */
 
-.tabs {
+/*.tabs {
 	position: relative;
 	width: 100%;
 	overflow: hidden;
@@ -18,7 +18,7 @@
 }
 
 /* Nav */
-.tabs nav {
+/*.tabs nav {
 	text-align: center;
 }
 
@@ -80,7 +80,7 @@
 }
 
 /* Icons */
-.tabs nav a:before {
+/*.tabs nav a:before {
 	display: inline-block;
 	vertical-align: middle;
 	text-transform: none;
@@ -114,7 +114,7 @@
 }
 
 /* Content */
-.content section {
+/*.content section {
 	font-size: 1.25em;
 	padding: 3em 1em;
 	display: none;
@@ -133,7 +133,7 @@
 }
 
 /* Fallback example */
-.no-js .content section {
+/*.no-js .content section {
 	display: block;
 	padding-bottom: 2em;
 	border-bottom: 1px solid #47a3da;
@@ -167,7 +167,7 @@
 
 /* Example media queries */
 
-@media screen and (max-width: 52.375em) {
+/*@media screen and (max-width: 52.375em) {
 	.tabs nav a span {
 		display: none;
 	}
@@ -244,3 +244,4 @@
 		margin: 0;
 	}
 }
+*/

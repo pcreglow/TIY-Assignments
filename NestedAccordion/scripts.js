@@ -1,4 +1,4 @@
-// just a tracer bullet
+/* just a tracer bullet
 // alert("it's alive!");
 debugger;
 
@@ -19,7 +19,7 @@ var nestedElements = document.querySelectorAll('h4');
   });
 
 }
-console.log(index);*/
+console.log(index);
 
 _.forEach(elements, function(element, index, elements){
   element.addEventListener('click', function(){
@@ -33,3 +33,4 @@ _.forEach(nestedElements, function(element, index, elements){
         element.parentElement.classList.toggle('cbp-ntopen');
     });
 });
+*/
