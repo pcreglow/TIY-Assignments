@@ -1,1 +1,54 @@
-//Tracer bullet: It's alive!
+
+body {
+  font-family: Lato, Calibri, Arial, sans-serif;
+  display: block;
+  margin: 50px;
+  border: 3px solid cornflowerblue;
+
+
+}
+
+.cbp-vm-options {
+  text-align: right;
+  padding: 10px 10px;
+}
+
+ul {
+  border-top: 3px solid cornflowerblue;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+li {
+  display: inline-block;
+  padding: 15px;
+
+}
+
+.cbp-vm-title, .cbp-vm-details {
+  color: cornflowerblue;
+  text-align: center;
+
+}
+
+.cbp-vm-title {
+  font-size: 25pt;
+}
+
+.cbp-vm-details {
+  width: 250px;
+}
+
+.cbp-vm-price {
+  color: lightgrey;
+  font-size: 20pt;
+  text-align: center;
+}
+
+.cbp-vm-image {
+  float: left;
+}
+
+.cbp-vm-icon, .cbp-vm-add {
+  text-align: center;
+}

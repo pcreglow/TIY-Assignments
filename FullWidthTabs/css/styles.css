@@ -1,3 +1,75 @@
+
+body {
+	font-family: Arial, sans-serif;
+	color: cornflowerblue;
+}
+
+
+.content section[id^="section-"] {
+	display: none;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+.content section[id^="section"]:first-of-type {
+	display: block;
+}
+
+.content section[id^="section-"]::after {
+	content: " ";
+	display: table;
+	clear: both;
+}
+
+.mediabox {
+	width: 33%;
+	float: left;
+	padding-right: 1em;
+	padding-left: 1em;
+	box-sizing: border-box;
+	}
+
+.mediabox img {
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*@font-face {
 	font-family: 'icomoon';
 	src:url('../fonts/icomoon/icomoon.eot?pvm5gj');
