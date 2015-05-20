@@ -6,14 +6,15 @@ body {
   line-height: 30px;
   margin-left: 45px;
   margin-right: 45px;
+
 }
 
 h3, h4 {
-  color: cornflowerblue
+  color: cornflowerblue;
 }
 
+
 h3 {
-  color: cornflowerblue;
   font-size: 30pt;
   border-bottom: 1px solid lightgray;
   padding-bottom: 20px;
@@ -33,6 +34,7 @@ h5 {
 
 li {
   display: block;
+  
 }
 
 .js .cbp-ntcontent {
