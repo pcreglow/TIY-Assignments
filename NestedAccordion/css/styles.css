@@ -24,23 +24,26 @@ h3 {
 h4 {
   font-size: 1.2em;
   text-transform: uppercase;
-
-
 }
 
 h5 {
   color: darkgrey;
 }
 
-li {
-  display: block;
-  
-}
-
 .js .cbp-ntcontent {
-  display: none;
+ display: none;
 }
 
 .cbp-ntopen > .cbp-ntcontent {
   display: block;
+
+}
+
+ul {
+  list-style-type: none;
+}
+
+.cbp-nttrigger::before {
+  content: "->";
+  padding-right: .5em;
 }
