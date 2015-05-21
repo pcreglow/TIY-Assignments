@@ -4,7 +4,6 @@ body {
 	color: cornflowerblue;
 }
 
-
 .content section[id^="section-"] {
 	display: none;
 	padding-left: 1em;
