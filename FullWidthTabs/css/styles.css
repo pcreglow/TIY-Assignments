@@ -16,7 +16,7 @@ body {
 	border-bottom-color: cornflowerblue;
 	border-bottom-style: solid;
 	border-bottom-width: thin;
-	border-bottom-width: 100%;
+
 }
 
 .tabs nav ul {
@@ -44,12 +44,7 @@ body {
 	border-right-width: 1px;
 	border-right-style: solid;
 	border-right-color: lightgray;
-	list-style-image: url(http://cdn.flaticon.com/png/256/70647.png);
-}
 
-.tabs nav li.tab-current {
-	color: cornflowerblue;
-	content: " ";
 }
 
 a {
@@ -65,7 +60,7 @@ a {
 	padding-top: 50px;
 }
 
-.content section[id^="section-"]:first-of-type {
+.content section[id^="section-"].content-current {
 	display: block;
 }
 
