@@ -7,24 +7,23 @@ body {
 .tabs {
 	position: relative;
 	width: 100%;
-	font-weight: 300;
-	margin: 1em 0 2em;
-
+	font-weight: 100;
+	margin-top: 1em;
 }
 
 .tabs nav {
 	text-align: center;
 	border-bottom-color: cornflowerblue;
 	border-bottom-style: solid;
-	border-bottom-width: 1px;
+	border-bottom-width: thin;
 	border-bottom-width: 100%;
 }
 
 .tabs nav ul {
 	display: inline-block;
 	list-style: none;
-	padding: 0;
-	margin: 0;
+	margin-bottom: 0;
+	padding-bottom: 0;
 }
 
 .tabs nav ul li {
@@ -35,13 +34,26 @@ body {
 	font-size: 25px;
 	padding: 0 25px 0 25px;
 	height: 50px;
-	line-height: 55px;
-
+	line-height: 50px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: lightgray;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: lightgray;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: lightgray;
 }
 
 a {
 	text-decoration: none;
-	color: cornflowerblue;
+	color: lightgray;
+	font-size: 20px;
+}
+
+.icon-shop::before {
+	content: normal;
 }
 
 .content section[id^="section-"] {
@@ -51,7 +63,7 @@ a {
 	padding-top: 50px;
 }
 
-.content section[id^="section"]:first-of-type {
+.content section[id^="section-"]:first-of-type {
 	display: block;
 }
 
@@ -67,7 +79,7 @@ a {
 	padding-right: 1em;
 	padding-left: 1em;
 	box-sizing: border-box;
-	}
+}
 
 .mediabox img {
 	width: 100%;
