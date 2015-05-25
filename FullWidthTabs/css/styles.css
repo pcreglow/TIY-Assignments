@@ -44,16 +44,18 @@ body {
 	border-right-width: 1px;
 	border-right-style: solid;
 	border-right-color: lightgray;
+	list-style-image: url(http://cdn.flaticon.com/png/256/70647.png);
+}
+
+.tabs nav li.tab-current {
+	color: cornflowerblue;
+	content: " ";
 }
 
 a {
 	text-decoration: none;
 	color: lightgray;
 	font-size: 20px;
-}
-
-.icon-shop::before {
-	content: normal;
 }
 
 .content section[id^="section-"] {
@@ -84,34 +86,6 @@ a {
 .mediabox img {
 	width: 100%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
