@@ -1,4 +1,5 @@
 
+(function(window) {
 //Collaboration with @kmattiko @JessyRiordan @gatorpazz @sjoyal
 
   $('a.icon-shop').click(function(){
@@ -35,3 +36,5 @@
    $('a').removeClass('tab-current');
    $('a.icon-truck').addClass('tab-current');
   });
+
+})(window);
