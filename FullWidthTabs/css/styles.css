@@ -43,13 +43,20 @@ body {
 	border-right-width: 1px;
 	border-right-style: solid;
 	border-right-color: lightgray;
-
+	border-top-left-radius: 5%;
+	border-top-right-radius: 5%;
+	box-sizing: border-box;
 }
 
-a {
+.tabs nav ul li a {
 	text-decoration: none;
 	color: lightgray;
 	font-size: 20px;
+}
+
+.tabs nav ul li a::before {
+	content: '\1f4b0';
+	font-size: 150%;
 }
 
 .content {
@@ -83,4 +90,17 @@ a {
 
 .mediabox img {
 	width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+	.tabs nav ul li a > span {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.tabs nav ul li {
+		margin: 0;
+		width: 20%;
+	}
 }
