@@ -126,6 +126,11 @@ textarea {
   margin-right: 24%;
   float: left;
   text-align: right;
+  color: #8ABCF0;
+}
+
+.timeline time small {
+  color: lightgray;
 }
 
 .timeline article {
@@ -143,6 +148,7 @@ textarea {
   background-color: #5E91CC;
 }
 
+
 h3 {
   border-bottom: 1px solid lightblue;
 }
@@ -150,6 +156,11 @@ h3 {
 .timeline time > * {
   display: block;
 }
+
+.timeline :nth-child(odd) time {
+  color: #5E91CC;
+}
+
 
 
 
