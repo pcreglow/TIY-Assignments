@@ -161,6 +161,18 @@ h3 {
   color: #5E91CC;
 }
 
+@media screen and (max-width: 460px) {
+
+  .timeline article {
+    width: 100%;
+  }
+
+  .timeline li::before {
+    position: relative;
+    left: 80%;
+  }
+
+}
 
 
 
