@@ -1,27 +1,32 @@
 
 body {
   font-family: Lato, Calibri, Arial, sans-serif;
-  display: block;
   margin: 50px;
   border: 3px solid cornflowerblue;
 
 
 }
 
+.cbp-vm-options .cbp-vm-icon {
+
+  text-decoration: none;
+  display: inline-block;
+  width: 5em; height: 5em;
+}
+
 .cbp-vm-options {
   text-align: right;
-  padding: 10px 10px;
 }
 
 ul {
   border-top: 3px solid cornflowerblue;
-  margin-left: 10px;
-  margin-right: 10px;
+  display: block;
+
 }
 
 li {
   display: inline-block;
-  padding: 15px;
+  width: 33%;
 
 }
 
@@ -35,9 +40,6 @@ li {
   font-size: 25pt;
 }
 
-.cbp-vm-details {
-  width: 250px;
-}
 
 .cbp-vm-price {
   color: lightgrey;
@@ -45,8 +47,8 @@ li {
   text-align: center;
 }
 
-.cbp-vm-image {
-  float: left;
+.cbp-vm-image { /*List  view add float*/
+margin: 33%;
 }
 
 .cbp-vm-icon, .cbp-vm-add {
