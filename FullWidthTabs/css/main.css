@@ -99,7 +99,7 @@ body {
   font-family: 'Droid Serif', Arial, Calibri, sans-serif;
 }
 nav {
-  border-bottom: 1px solid cornflowerblue;
+  border-bottom: 2px solid cornflowerblue;
   width: 100%;
 }
 nav ul {
@@ -115,9 +115,34 @@ nav ul li {
   width: 10%;
   padding: 1em;
   text-align: center;
+  color: lightgrey;
 }
 
+.tab-current {
+  border: 2px solid cornflowerblue;
+  border-bottom: none;
+  color: cornflowerblue;
+}
 
+.shop::before {
+  content: "\272e";
+}
+
+.drinks::before {
+  content: "\272e";
+}
+
+.food::before {
+  content: "\272e";
+}
+
+.lab::before {
+  content: "\272e";
+}
+
+.order::before {
+  content: "\272e";
+}
 
 
 
