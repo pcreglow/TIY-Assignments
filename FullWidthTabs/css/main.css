@@ -98,14 +98,19 @@ textarea {
 body {
   font-family: 'Droid Serif', Arial, Calibri, sans-serif;
 }
-
+nav {
+  border-bottom: 1px solid cornflowerblue;
+  width: 100%;
+}
 nav ul {
-  margin-top: 5%;
+  margin: 5% 25% 0 25%;
+  width: 50%;
+  padding-bottom: 0;
 }
 nav ul li {
   list-style: none;
   display: inline-block;
-  border: 1px solid cornflowerblue;
+  border: 1px solid lightgrey;
   border-bottom: none;
   width: 10%;
   padding: 1em;
