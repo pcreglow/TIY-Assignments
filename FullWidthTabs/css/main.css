@@ -95,7 +95,33 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body {
+  font-family: 'Droid Serif', Arial, Calibri, sans-serif;
+}
 
+.content {
+  color: cornflowerblue;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.content section {
+  margin: 0 auto;
+  padding: 3em 3em;
+  width: 90%;
+  display: inline-block;
+}
+
+.column {
+  box-sizing: border-box;
+  width: 30%;
+  float: left;
+  padding: 1em;
+}
+
+.column img {
+  width: 100%;
+}
 
 
 
