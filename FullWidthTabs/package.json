@@ -1,0 +1,20 @@
+{
+  "name": "FullWidthTabs",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "browser-sync start --server --files='index.html,css/*.css,js/*.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pcreglow/TIY-Assignments"
+  },
+  "author": "Phillip Creglow @pcreglow phillipcreglow@msn.com",
+  "license": "CC0",
+  "bugs": {
+    "url": "https://github.com/pcreglow/TIY-Assignments/issues"
+  },
+  "homepage": "https://github.com/pcreglow/TIY-Assignments"
+}
