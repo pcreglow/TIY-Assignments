@@ -96,8 +96,6 @@ body {
   margin-top: 5%;
 }
 
-.content {
-}
 .container {
   padding: 0;
   margin: 0;
@@ -109,46 +107,27 @@ body {
 .tabs ul {
   margin: 0 auto;
   width: 75%;
-  padding: 0;
   text-align: center;
+
 }
 .tabs li {
   list-style: none;
   display: inline-block;
   border: 1px solid lightgrey;
-  border-bottom: none;
   width: 15%;
   padding: 1em;
   text-align: center;
   color: lightgrey;
+  border-bottom: none;
 }
 .tabs .tab-current {
   border-top: 3px solid cornflowerblue;
   border-right: 2px solid cornflowerblue;
   border-left: 2px solid cornflowerblue;
   border-bottom: 2px solid white;
-  margin-bottom: -1px;
+  margin-bottom: -2px;
   color: cornflowerblue;
-  width: 100%;
-  margin: 0 auto;
-}
-
-.content section {
-  margin: 0 auto;
-  padding: 3em 3em;
-  width: 90%;
-  display: inline-block;
-}
-
-.column {
-  box-sizing: border-box;
-  width: 30%;
-  float: left;
-  padding: 1em;
-}
-
-.column img {
-  width: 100%;
+  width: 15%;
 }
 .shop::before {
   content: "\272e";
@@ -165,6 +144,24 @@ body {
 .order::before {
   content: "\2708";
 }
+
+.content section {
+  margin: 0 auto;
+  padding: 3em 3em;
+  width: 90%;
+  display: inline-block;
+}
+
+.column {
+  width: 30%;
+  float: left;
+  padding: 1em;
+}
+
+.column img {
+  width: 100%;
+}
+
 
 /* ==========================================================================
    Helper classes
